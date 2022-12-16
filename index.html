@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;800&family=Happy+Monkey&family=Odibee+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sub-container">
+                <h3>HOME</h3>
+                <p id="home-points"></p>
+                <div class="points-container">
+                    <button onclick="add1h()">+1</button>
+                    <button onclick="add2h()">+2</button>
+                    <button onclick="add3h()">+3</button>
+                </div>
+            </div>
+            <div class="sub-container">
+                <h3>GUEST</h3>
+                <p id="guest-points"></p>
+                <div class="points-container">
+                    <button onclick="add1g()">+1</button>
+                    <button onclick="add2g()">+2</button>
+                    <button onclick="add3g()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="restart-container">
+            <button onclick="restart()" class="restart-button">Restart</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
